@@ -10,14 +10,14 @@
     />
     <link rel="stylesheet" href="static/css/style.css">
 </head>
-<body>
+<body class="bg-dark">
     <div class="wrapper">
-        <nav class="navbar navbar-expand-lg">
+        <nav class="navbar navbar-dark bg-dark navbar-expand-lg">
             <a class="navbar-brand" href="index.html">UFO Sightings</a>
         </nav>
     </div>
     <div class="jumbotron">
-        <h1>Page Header: The Truth is out there</h1>
+        <h1 class="display-4">The Truth is out there</h1>
     </div>
     <div class="container-fluid">
         <div class="row">
@@ -41,20 +41,20 @@
             </div>
         </div>
     </div>
-    <div class="container-fluid">
+    <div class="container-fluid" id="bottom">
         <div class="row">
             <div class="col-md-3">
-                <form>
+                <form class="bg-dark">
                     <p>Filter Search</p>
                 </form>
-                <ul class="list-group">
-                    <li class="list-group-item">
+                <ul class="bg-dark">
+                    <li class="bg-dark">
                         <label for="date">Enter Date</label>
                         <input type="text" placeholder="1/10/2010" id="datetime" />
-                        <!-- <button id="filter-btn" type="button" class="btn btn-default">Filter Table</Table></button> -->
+                        <!-- <button id="filter-btn" type="button" class="btn btn-default">Filter Table</button> -->
                     </li>
-                    <li class="list-group-item">
-                        <button id="filter-btn" type="button" class="btn btn-default">Filter Table</Table></button>
+                    <li class="bg-dark">
+                        <button id="filter-btn" type="button" class="btn-dark">Filter Table</button>
                     </li>
                 </ul>
             </div>
@@ -76,15 +76,9 @@
             </div>
         </div>
     </div>
-    <!-- <div class='article'> -->
-        <!-- <h2>Article Title: UFO sightings: Fact or Fiction? Experts weigh in</h2> -->
-        <!-- <p>Article Paragraph</p> -->
-    <!-- </div> -->
-    <!-- <div class='col-md-3'> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.11.0/d3.js"></script>
+    <script src="static/js/data.js"></script>
+    <script src="static/js/app.js"></script>
 
-    <!-- </div> -->
-    <!-- <div class='col-md-9'> -->
-
-    <!-- </div> -->
 </body>
 </html>
