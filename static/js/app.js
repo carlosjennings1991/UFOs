@@ -19,3 +19,17 @@ function buildTable(data) {
 }
 
 
+// create a new function
+function handleClick() {
+    let date = d3.select('#datetime').property('value');
+    let filteredData = tableData;
+    d3.selectAll('#filter-btn').on('click', handleClick);
+
+    // check to see if a date was entered, and if so, filter for that date. 
+    if (date) {
+        filteredData = filteredData.filter(row => row.datetime === date)
+    };
+    buildTable(filteredData);
+};
+
+buildTable(tableData);
