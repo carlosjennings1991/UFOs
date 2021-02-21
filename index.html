@@ -2,13 +2,14 @@
 <html lang='en'>
 <head>
     <title>UFO Finder</title>
-    <link
+    <!-- <link
       rel="stylesheet"
       href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
       integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
       crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="static/css/style.css">
+    /> -->
+    <link rel="stylesheet" href="static/css/style_from_bootstrap.css">
+
 </head>
 <body class="bg-dark">
     <div class="wrapper">
@@ -19,7 +20,8 @@
     <div class="jumbotron">
         <h1 class="display-4">The Truth is out there</h1>
     </div>
-    <div class="container-fluid">
+    <div style="height: 1px; background-color: white"></div>
+    <div class="container-fluid" style="padding-top: 25px">
         <div class="row">
             <div class="col-md-4">
                 <h3>UFO Sightings: Fact or Fancy? <small>Ufologists Weigh In</small></h3>
@@ -41,27 +43,59 @@
             </div>
         </div>
     </div>
+    <div style="height:40px"></div>
     <div class="container-fluid" id="bottom">
         <div class="row">
             <div class="col-md-3">
-                <form class="bg-dark">
-                    <p>Filter Search</p>
+                <form class="bg-dark" style="padding-top: 15px; padding-left: 14px">
+                    <p style="font-size: 25px">Filter Search</p>
                 </form>
-                <ul class="bg-dark">
+                <ul class="bg-dark" style="list-style: none; padding-top: 12px; padding-left: 14px; border: 1px solid white">
                     <li class="bg-dark">
                         <label for="date">Enter Date</label>
-                        <input type="text" placeholder="1/10/2010" id="datetime" />
-                        <!-- <button id="filter-btn" type="button" class="btn btn-default">Filter Table</button> -->
+                        <div style="height:1px"></div>
+                        <input type="text" placeholder="Date (m/d/yyy)" id="datetime" />
+                        <br></br>
                     </li>
                     <li class="bg-dark">
-                        <button id="filter-btn" type="button" class="btn-dark">Filter Table</button>
+                        <label for="city">Enter City</label>
+                        <div style="height:1px"></div>
+                        <input type="text" placeholder="City (i.e Boston)" id="city" />
+                        <br></br>
+                    </li>
+                    <li class="bg-dark">
+                        <label for="state">Enter State</label>
+                        <div style="height:1px"></div>
+                        <input type="text" placeholder="State (i.e MA)" id="state" />
+                        <br></br>
+                    </li>
+                    <li class="bg-dark">
+                        <label for="country">Enter Country</label>
+                        <div style="height:1px"></div>
+                        <input type="text" placeholder="Country (i.e US)" id="country" />
+                        <br></br>
+                    </li>
+                    <li class="bg-dark">
+                        <label for="shape">Enter Shape</label>
+                        <div style="height:1px"></div>
+                        <input type="text" placeholder="Shape (i.e Sphere)" id="shape" />
+                        <br></br>
+                    </li>
+                    <li style="padding-bottom: 20px; padding-top: 15px">
+                        <button id="filter-btn" type="button" class="btn btn-default">
+                            Filter Table
+                        </button>
                     </li>
                 </ul>
+                <div style="padding-top: 25px">
+                    <!-- <embed src="static/audio/mulder_scully.mp3" loop="false" hidden="true" autostart="true"> -->
+                    <audio src="static/audio/mulder_scully.mp3" controls autoplay style="width: 200px; height: 34px">
+                </div>
             </div>
-            <div class="col-md-9">
-                <table class="table table-striped">
+            <div class="col-md-9" style="padding-bottom: 60px">
+                <table class="table table-striped" style="background: rgba(48, 49, 53, 0.982)">
                     <thead>
-                      <tr>
+                      <tr style="font-size: 20px">
                         <th>Date</th>
                         <th>City</th>
                         <th>State</th>
@@ -76,9 +110,10 @@
             </div>
         </div>
     </div>
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.11.0/d3.js"></script>
     <script src="static/js/data.js"></script>
-    <script src="static/js/app.js"></script>
+    <script src="static/js/app_2.js"></script>
 
 </body>
 </html>
