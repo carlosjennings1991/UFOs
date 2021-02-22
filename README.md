@@ -29,3 +29,12 @@ The data file, written in javascript is a massive array (which looks quite simil
 We then need to import it into the javascript file that parses the data based on our search requests. The following code, seen in our other javascript file does exactly that. 
 
 <img src="https://github.com/carlosjennings1991/UFOs/blob/main/code.png">
+
+The above code does the following
+
+* Import the data (line 2)
+* Takes the table and through javascript, builds the table in html row by row, filling each cell data value by data value. 
+* Creates an empty list called 'filters' (very important because it feeds into another function later)
+* Creates a function called 'updateFilters' which takes the search parameters inputted by the user, converts them to a value that is used to update the previously empty filters list, and then the 'updateFilters' function calls the 'filterTable' function.
+* Creates a function called 'filterTable' which takes in the filters (provided by the user) and rebuilds the table based on the given filters. 
+* Returns the table based on user inputs.  
