@@ -53,3 +53,5 @@ First and foremost, the central limitation is the size of the dataset. You reall
 Secondly, parts of the dataset are a little suspect. All the sightings are in 2010 and in January 2010 at that. There are also some type errors in the data set that were brought over from the data.js file. (shown below)
 
 <img src="https://github.com/carlosjennings1991/UFOs/blob/main/text_errors.png" width="449" height="245">
+
+Finally, for the website itself, it would be great if there were more pages like one for a photo gallery, or in-depth articles about these close encounters with the third kind ;)
