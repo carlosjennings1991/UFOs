@@ -16,3 +16,11 @@ All content was created through javascript, html, and css. Individual source fil
 
 ---
 
+## Results: 
+
+Let's go over the code first. It's important to understand the mechanics to fully appreciate what's happening. 
+
+### Step 1: Source Code: 
+
+The data file, written in javascript is a massive array (which looks quite similar to a dictionary in Python) and looks like this, which each sighting instance happening between the curly braces and consisting of what looks like 5 key:value pairs. 
+
