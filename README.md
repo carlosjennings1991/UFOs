@@ -38,3 +38,7 @@ The above code does the following
 * Creates a function called 'updateFilters' which takes the search parameters inputted by the user, converts them to a value that is used to update the previously empty filters list, and then the 'updateFilters' function calls the 'filterTable' function.
 * Creates a function called 'filterTable' which takes in the filters (provided by the user) and rebuilds the table based on the given filters. 
 * Returns the table based on user inputs.  
+
+The result is that we can filter the table based on any of five filters, and any combination of the five filters. The below example is one where I'm searching for all the sightings that were triangle in shape and 1/11/2010 in date. This filters the table down to two results. 
+
+<img src="https://github.com/carlosjennings1991/UFOs/blob/main/filtered_results.png">
