@@ -25,3 +25,7 @@ Let's go over the code first. It's important to understand the mechanics to full
 The data file, written in javascript is a massive array (which looks quite similar to a dictionary in Python) and looks like this, which each sighting instance happening between the curly braces and consisting of what looks like 5 key:value pairs. 
 
 <img src="https://github.com/carlosjennings1991/UFOs/blob/main/data_source_code.png">
+
+We then need to import it into the javascript file that parses the data based on our search requests. The following code, seen in our other javascript file does exactly that. 
+
+<img src="https://github.com/carlosjennings1991/UFOs/blob/main/code.png">
