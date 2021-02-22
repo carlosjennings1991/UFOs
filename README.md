@@ -52,4 +52,4 @@ First and foremost, the central limitation is the size of the dataset. You reall
 
 Secondly, parts of the dataset are a little suspect. All the sightings are in 2010 and in January 2010 at that. There are also some type errors in the data set that were brought over from the data.js file. (shown below)
 
-<img src="https://github.com/carlosjennings1991/UFOs/blob/main/text_errors.png" height="449" width="245">
+<img src="https://github.com/carlosjennings1991/UFOs/blob/main/text_errors.png" width="449" height="245">
