@@ -49,3 +49,7 @@ The result is that we can filter the table based on any of five filters, and any
 ## Summary
 
 First and foremost, the central limitation is the size of the dataset. You really can't use more three or more filters and expect three or more results. 
+
+Secondly, parts of the dataset are a little suspect. All the sightings are in 2010 and in January 2010 at that. There are also some type errors in the data set that were brought over from the data.js file. (shown below)
+
+<img src="https://github.com/carlosjennings1991/UFOs/blob/main/text_errors.png">
