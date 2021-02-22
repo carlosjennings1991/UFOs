@@ -14,7 +14,7 @@ All content was created through javascript, html, and css. Individual source fil
 [js](https://github.com/carlosjennings1991/UFOs/blob/main/static/js/app.js)
 [js](https://github.com/carlosjennings1991/UFOs/blob/main/static/js/data.js)
 
-The website itself can be visited [here](file:///Users/Admin/Desktop/GW_Bootcamp/Analysis_Projects/UFOs/index.html)
+The website itself can be visited here - file:///Users/Admin/Desktop/GW_Bootcamp/Analysis_Projects/UFOs/index.html
 
 ---
 
